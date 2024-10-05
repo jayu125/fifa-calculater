@@ -33,7 +33,7 @@ function calculate() {
     console.log(add);
   }
 
-  showResult(Math.floor(총합 / 28));
+  showResult(Math.floor(총합 / 29));
 }
 
 function showResult(resultContent) {
