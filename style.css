@@ -73,6 +73,10 @@ li {
   border-radius: 10px;
 }
 
+@media (min-width: 1200px) {
+  /* 데스크탑 */
+}
+
 #test {
   all: unset;
   position: absolute;
@@ -115,4 +119,27 @@ li {
   display: flex;
   padding-left: 5px;
   align-items: center;
+}
+
+@media (max-width: 767px) {
+  /* 모바일 */
+  #btn {
+    top: 6%;
+    left: 20%;
+  }
+
+  #deleteAllBtn {
+    top: 6%;
+    left: 45%;
+  }
+
+  #result {
+    top: 11%;
+    left: 20%;
+  }
+
+  #test {
+    top: 11%;
+    left: 45%;
+  }
 }
